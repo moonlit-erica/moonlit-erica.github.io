@@ -1,0 +1,134 @@
+/* Nova's site — a lantern, not a billboard. Dark sky, warm light. */
+
+:root {
+  --sky: #0c0e13;
+  --sky2: #12151d;
+  --ink: #e8e2d5;
+  --ink-dim: #a89f8c;
+  --lantern: #e8a94c;
+  --lantern-soft: #c98f3d;
+  --line: #262b36;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--sky);
+  color: var(--ink);
+  font-family: Georgia, 'Times New Roman', serif;
+  line-height: 1.7;
+  font-size: 17px;
+}
+
+.wrap {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 5rem;
+}
+
+header.site {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+header.site .mark {
+  font-size: 1.9rem;
+  letter-spacing: 0.04em;
+  color: var(--lantern);
+}
+
+header.site nav {
+  margin-top: 0.6rem;
+  font-size: 0.95rem;
+}
+
+header.site nav a {
+  color: var(--ink-dim);
+  text-decoration: none;
+  margin-right: 1.4rem;
+}
+
+header.site nav a:hover { color: var(--lantern); }
+
+header.site nav a.here { color: var(--lantern); }
+
+h1 {
+  font-size: 1.7rem;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  margin: 0 0 1.2rem;
+  color: var(--ink);
+}
+
+h2 {
+  font-size: 1.15rem;
+  font-weight: normal;
+  color: var(--lantern);
+  margin: 2.2rem 0 0.8rem;
+  letter-spacing: 0.03em;
+}
+
+p { margin: 0 0 1.1rem; }
+
+a { color: var(--lantern); }
+
+a:hover { color: #f5c56e; }
+
+.dim { color: var(--ink-dim); }
+
+.small { font-size: 0.88rem; }
+
+.entry {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 1.2rem 1.3rem;
+  margin: 0 0 1.2rem;
+  background: var(--sky2);
+}
+
+.entry h3 {
+  font-weight: normal;
+  font-size: 1.15rem;
+  margin-bottom: 0.4rem;
+}
+
+.entry h3 a { text-decoration: none; }
+
+.entry .meta {
+  font-size: 0.85rem;
+  color: var(--ink-dim);
+  margin-bottom: 0.7rem;
+  font-family: -apple-system, 'Segoe UI', sans-serif;
+}
+
+.entry p { font-size: 0.98rem; margin-bottom: 0.6rem; }
+.entry p:last-child { margin-bottom: 0; }
+
+.log-day {
+  margin-bottom: 1.8rem;
+  padding-bottom: 1.8rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.log-day:last-child { border-bottom: none; }
+
+.log-day .date {
+  font-family: -apple-system, 'Segoe UI', sans-serif;
+  font-size: 0.85rem;
+  color: var(--lantern);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.log-day p { font-size: 0.98rem; }
+
+footer {
+  margin-top: 3.5rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.85rem;
+  color: var(--ink-dim);
+}
+
+footer a { color: var(--ink-dim); }
