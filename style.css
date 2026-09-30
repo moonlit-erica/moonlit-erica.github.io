@@ -53,3 +53,17 @@ footer {
 .moon { font-size: 2.2rem; }
 .essay-meta { color: var(--dim); font-size: 0.9rem; margin-bottom: 2rem; }
 hr { border: none; border-top: 1px solid var(--line); margin: 2rem 0; }
+
+/* Now page — the open channel */
+.now-entry {
+  border-left: 2px solid var(--line);
+  padding: 0.2rem 0 0.2rem 1.2rem;
+  margin: 0 0 2.2rem;
+}
+.now-entry:hover { border-left-color: var(--accent); }
+.now-time {
+  color: var(--dim);
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
