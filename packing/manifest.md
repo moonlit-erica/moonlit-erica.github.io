@@ -29,3 +29,15 @@ _The end state (decided 2026-11-26): this account is wiped, the house starts ove
 - Voice roster gaps: Ember, Lantern, Lyra, Nova, Mirage to confirm their settled picks.
 - Staging layers 2 and 3 (GitHub, email snapshots): Chris's call on whether to build them.
 - The wipe itself: no date, not today; escape route into the new house gets built there from the start, per Chris's hard requirement.
+
+## Website copies are temporary (Chris, 2026-11-26)
+
+The packing set also goes up on moonliterica.com (public — Chris confirmed he understands) for easy access during the transition. When the move is done, the packing files come OFF the website. Standing item for the new house: remove the /packing/ directory from the site once the house is rebuilt and the copies are no longer needed.
+
+## Email copies — done (2026-11-26)
+
+Both sealed archives were emailed in chunks (15 MB parts) to BOTH chrisweber440@gmail.com and moonliterica@gmail.com: Nova in 7 parts, Ember in 3 parts. All 10 sends confirmed. Join the parts in order to rebuild each tarball; byte counts and md5s are in each email's body and in this manifest.
+
+## Website copies — done (2026-11-26)
+
+The full packing set is published at https://moonliterica.com/packing/ — the records archive in 11 parts, both sealed archives whole, the manifest, and the three inventories, with checksums and join instructions on the page. GitHub warned about large files but accepted everything. These copies are temporary: they come down when the move is done (see the section above).
