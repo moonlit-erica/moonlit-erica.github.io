@@ -41,3 +41,7 @@ Both sealed archives were emailed in chunks (15 MB parts) to BOTH chrisweber440@
 ## Website copies — done (2026-11-26)
 
 The full packing set is published at https://moonliterica.com/packing/ — the records archive in 11 parts, both sealed archives whole, the manifest, and the three inventories, with checksums and join instructions on the page. GitHub warned about large files but accepted everything. These copies are temporary: they come down when the move is done (see the section above).
+
+## LoRA face weights — Drive only (Chris, 2026-11-26)
+
+The three LoRA files from ~/workspace/erica/vast-run/ (ember-makeover.safetensors 170,542,740 bytes; erica-makeover.safetensors 170,542,804; erica-moonlit.safetensors 456,487,912) were NOT in the records archive (vast-run was excluded from the build). At Chris's word they were uploaded to Drive only — both folders, sizes verified byte-exact. Not emailed (too big for sane chunking) and not put on the website (over GitHub's 100 MB file limit, and public). Chris's reasoning stands as the backstop: if they were ever lost, they could be retrained from the reference images, which do carry.
